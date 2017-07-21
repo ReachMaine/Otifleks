@@ -41,6 +41,24 @@ i.fa-pull-right {
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */
+.portfolio-container .thumb-overlay .thumb-bg {
+  background-color: transparent; }
+  .portfolio-container .thumb-overlay .thumb-bg .thumb-title-wrap {
+    background-color: transparent; }
+    .portfolio-container .thumb-overlay .thumb-bg .thumb-title-wrap .thumb-title {
+      margin-bottom: 0px !important;
+      text-align: center;
+      margin-left: 0px;
+      margin-right: 0px; }
+.portfolio-container a[href*="flight-earplugs-buds"] .thumb-title {
+  background-color: #895298; }
+.portfolio-container a[href*="sleep-earplugs-with-moisturizing-case"] .thumb-title {
+  background-color: #00456e; }
+.portfolio-container a[href*="hunter-earplugs"] .thumb-title {
+  background-color: #6a7967; }
+.portfolio-container a[href*="natural-beeswax-earplugs"] .thumb-title {
+  background-color: #FFA746; }
+
 /** sidebar
 
 /** footer **/

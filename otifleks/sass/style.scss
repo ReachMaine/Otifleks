@@ -19,7 +19,37 @@ Version: 1.2
 /*  header stuff - here */
 
 /*** styling of content */
+// portfolio
 
+.portfolio-container  {
+	.thumb-overlay {
+		.thumb-bg {
+			background-color: transparent;
+			.thumb-title-wrap  {
+				background-color: transparent;
+				.thumb-title {
+					margin-bottom: 0px!important;
+					text-align: center;
+					margin-left: 0px;
+					margin-right: 0px;
+
+				}
+			}
+		}
+	}
+	a[href*="flight-earplugs-buds"] .thumb-title {
+		background-color: $product-color-flight;
+	}
+	a[href*="sleep-earplugs-with-moisturizing-case"] .thumb-title {
+		background-color: $product-color-sleep;
+	}
+	a[href*="hunter-earplugs"] .thumb-title {
+		background-color: $product-color-hunter;
+	}
+	a[href*="natural-beeswax-earplugs"] .thumb-title {
+		background-color: $product-color-beewax;
+	}
+}
 /** sidebar
 
 /** footer **/
